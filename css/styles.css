@@ -1,0 +1,145 @@
+/* FONT SIZE: 16px = 100% = 1em;
+ex: 90px/16px = 5.625em / 562.5%. 190px/16px = 1187.5% or 11.875em.
+em set in the body will be added to the em in other elements.
+ex: 2em in body + 5em in h1 = 7em in h1; to prevent this, change h1 5em to 5rem. */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Roboto, Roboto Mono;
+  background-color: #f9f8eb;
+  font-size: 1em;
+}
+
+a {
+  color: #a7d7c5;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #74b49b;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-family: Domine;
+  font-size: 5.625rem;
+  color: #5c8d89;
+}
+
+h2 {
+  font-family: Domine;
+  font-size: 2.5rem;
+  color: #5c8d89;
+}
+
+h3 {
+  font-family: Domine;
+  color: #a7d7c5;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #a7d7c5;
+  width: 4%;
+  border-width:5px;
+  margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+.tagline {
+  font-size: 2.5rem;
+  color: #5c8d89;
+  font-weight: normal;
+}
+.top-container {
+  background-color: #f9f8eb;
+  width: auto;
+  margin: 20px;
+  position: relative;
+  padding-top: 10px;
+}
+.classyme-img {
+  border-radius: 100%;
+  width: 200px;
+  height: auto;
+}
+
+.sunshineflower {
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.ice-cream{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cat {
+  color: orange;
+}
+
+.cloud1 {
+  position: relative;
+  left: 200px;
+  top: 50px;
+}
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.bottom-container {
+  background-color: #5c8d89;
+  padding: 50px 0 20px;
+  margin: 25px auto 25px auto;
+}
+
+.copyright{
+  font-size: .75rem;
+  color: #74b49b;
+  padding: 20px 10px;
+}
+.footer-para{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.testbutton {
+  font-family: Roboto, Roboto Mono;
+  color: #F9F8EB;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: #5C8D89;
+  margin: 25px auto 50px auto;
+}
+
+.testbutton:hover {
+  color: #F9F8EB;
+  background: #A7D7C5;
+}
